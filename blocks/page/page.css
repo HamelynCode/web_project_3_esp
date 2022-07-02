@@ -1,1 +1,24 @@
-.page {}
+@font-face {
+    src: url("../../fonts/Inter-Light.woff");
+    font-family: "localInter";
+    font-weight: normal;
+}
+@font-face {
+    src: url("../../fonts/Inter-Black.woff");
+    font-family: "localInter";
+    font-weight: bold;
+}
+
+.page {
+    font-family: localInter, "Arial", "Helvetica", sans-serif;
+
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+}
