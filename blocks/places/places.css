@@ -1,1 +1,8 @@
-.places {}
+.places {
+    max-width: 987px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

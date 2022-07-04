@@ -1,0 +1,13 @@
+.place__paragraph {
+    width: 100%;
+
+    grid-area: text;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+}
