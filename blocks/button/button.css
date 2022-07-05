@@ -1,8 +1,13 @@
 .button {
     background-color: #0278FE;
+    transition: background-color 0.1s linear;
 
     text-decoration: none;
     color: white;
 
     padding: 13px 20px;
+}
+
+.button:hover {
+    background-color: #0063D2;
 }

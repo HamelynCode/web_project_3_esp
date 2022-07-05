@@ -3,6 +3,7 @@
 
 /* Blocks */
 @import url("../blocks/page/page.css");
+@import url("../blocks/page/__logo/page__logo.css");
 
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
@@ -38,3 +39,4 @@
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");

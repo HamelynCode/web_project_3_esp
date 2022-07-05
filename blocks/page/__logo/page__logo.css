@@ -1,0 +1,7 @@
+.page__logo {
+    width: 270px;
+    height: 70px;
+    background-image: url("../../../images/logo.svg");
+
+    margin-top: 34px;
+}
