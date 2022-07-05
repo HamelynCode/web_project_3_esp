@@ -1,1 +1,11 @@
-.cover {}
+* {
+    border: 1px solid red;
+}
+.cover {
+    max-width: 1184px;
+    max-height: 740px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
