@@ -1,1 +1,8 @@
-.photos {}
+.photos {
+    max-width: 1184px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+}
