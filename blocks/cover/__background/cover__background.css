@@ -1,5 +1,6 @@
 .cover__background {
-    width: 1184px;
-    height: 740px;
+    width: 100%;
+
+    grid-area: unica-area;
     z-index: -2;
 }

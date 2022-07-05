@@ -1,11 +1,12 @@
-* {
-    border: 1px solid red;
-}
 .cover {
     max-width: 1184px;
-    max-height: 740px;
+    width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-height: 740px;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "unica-area";
 }
