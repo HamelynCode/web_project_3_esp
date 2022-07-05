@@ -29,3 +29,11 @@
         row-gap: 88px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .page {
+        max-width: 320px;
+        width: 100%;
+        margin: 0;
+    }
+}

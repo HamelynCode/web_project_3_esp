@@ -5,3 +5,11 @@
 
     margin-top: 34px;
 }
+
+@media screen and (max-width: 320px) {
+    .page__logo {
+        width: 200px;
+        height: 51.85px;
+        background-image: url("../../../images/logo_320.svg");
+    }
+}

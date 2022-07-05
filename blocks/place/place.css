@@ -13,3 +13,20 @@
     "img  text"
     "nft  text";
 }
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto 100px;
+        grid-row-gap: 8px;
+
+        justify-items: center;
+
+        grid-template-areas: 
+        "city"
+        "website"
+        "img"
+        "text"
+        "nft";
+    }
+}

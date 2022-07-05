@@ -11,3 +11,10 @@
 
     text-align: end;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__author {
+        max-width: 288px;
+        position: static;
+    }
+}
