@@ -1,0 +1,15 @@
+.place {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 152px 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 48px;
+
+    grid-template-areas: 
+    "city website"
+    "img  text"
+    "img  text"
+    "nft  text";
+}

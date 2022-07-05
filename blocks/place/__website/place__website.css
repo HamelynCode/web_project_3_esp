@@ -1,0 +1,12 @@
+.place__website {
+    width: 100%;
+
+    grid-area: website;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    text-decoration: none;
+    color: white;
+}
