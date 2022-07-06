@@ -1,6 +1,6 @@
 /* Normalize */
 @import url("../styles/normalize.css");
-@import url("../styles/reset.css");/*creado al no poder modificar el normalize por defecto*/
+@import url("../styles/resetear.css");/*creado al no poder modificar el normalize por defecto*/
 
 /* Fonts */
 @import url("../styles/fonts.css");
