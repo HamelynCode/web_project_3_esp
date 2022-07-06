@@ -1,0 +1,6 @@
+
+/*Extensión del archivo normalize.css, ya que la plataforma no me dejó modificar el normalize por defecto*/
+* {
+    margin: 0;
+    padding: 0;
+}
